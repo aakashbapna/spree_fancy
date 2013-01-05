@@ -132,28 +132,27 @@ nav#top-nav-bar {
 nav #main-nav-bar, nav#top-nav-bar {
   margin-top: 40px;
   text-align: right;
+  border:0;
 
   li {
     a {
       font-weight: 600 !important;
-
+	  color: $c_white;
       &:hover, &.active {
-        color: $c_green !important;
+        color: darken($c_blue,45) !important;
       }   
     }
 
     &.current {
       a {
-        color: $c_green;
-
         &:hover {
-          color: darken($c_green, 5);
+          color: darken($c_blue, 45);
         }
       }
     }
   }
 }
-nav #main-nav-bar li {
+nav #main-nav-bar li {Ï
   a {
     padding-right: 30px;
   }

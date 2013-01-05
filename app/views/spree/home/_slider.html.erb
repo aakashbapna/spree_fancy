@@ -1,4 +1,4 @@
-<% if @slider_products %>
+<% if !@slider_products.empty? %>
   <div id="home-slider">
     <ul>
       <% @slider_products.each do |product| %>

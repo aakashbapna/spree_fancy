@@ -1,6 +1,6 @@
 body {
-  border-top: 5px solid $c_blue;  
-  padding-top: 10px;
+  /*border-top: 5px solid $c_blue;  
+  padding-top: 10px;*/
   line-height: 24px;
 }
 
@@ -11,6 +11,10 @@ body {
 }
 
 .hidden { display: none }
+
+header {
+	background: $c_blue;
+}
 
 #logo {
   margin-top: 10px;  
