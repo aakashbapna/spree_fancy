@@ -1,3 +1,19 @@
+/*oocss grids */
+.line,.lastUnit{overflow:hidden; *overflow:visible;*zoom:1;}
+.unit{float:left;}
+.unitRight{float:right;}
+.size1of1{float:none;}
+.size1of2{width:50%;}
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+.size1of4{width:25%;}
+.size3of4{width:75%;}
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+.lastUnit{float:none;width:auto;_position:relative;_left:-3px;_margin-right:-3px;}
+
 body {
   /*border-top: 5px solid $c_blue;  
   padding-top: 10px;*/
@@ -10,10 +26,12 @@ body {
   @include transition-duration(0.2s);
 }
 
+
 .hidden { display: none }
 
 header {
 	background: $c_blue;
+	@include box-shadow(inset 0px -4px 5px -3px $c_black);
 }
 
 #logo {
@@ -179,7 +197,6 @@ footer#footer {
   background-color: lighten($c_blue, 5);
   margin-top: 30px;
   border-top: 5px solid lighten($c_blue, 30);
-  padding-top: 30px;
   font-size: 14px;
   line-height: 24px;
 
@@ -201,12 +218,16 @@ footer#footer {
   p {
     padding-top: 0;  
   }
-
-  ul {
-    list-style: none;
-
-    li {
-      
-    }
+  ul,li {
+	  margin:0;
+	  padding:0;
   }
+
+}
+.footer-links li{
+	display:inline;	
+}
+
+.text-center {
+	text-align: center;
 }
