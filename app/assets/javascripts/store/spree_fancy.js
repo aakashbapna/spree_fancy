@@ -28,7 +28,7 @@ $(function(){
 
     $('.carousel').bxSlider({
       minSlides: 1,
-      maxSlides: 3,
+      maxSlides: 4,
       useCSS: true,
       slideWidth: 230,
       slideMargin: 10,
