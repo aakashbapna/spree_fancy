@@ -13,8 +13,6 @@ $(function(){
   setTimeout('$(".flash").fadeOut(1000)', 60000);
 
   // Home sliders
-  if($('#home-slider').length > 0) {
-
     var cached_carousel_1 = $('#featured-products .carousel').html();
     var cached_carousel_2 = $('#latest-products .carousel').html();
     
@@ -30,22 +28,20 @@ $(function(){
 
     $('.carousel').bxSlider({
       minSlides: 1,
-      maxSlides: 4,
+      maxSlides: 3,
       useCSS: true,
       slideWidth: 230,
       slideMargin: 10,
       auto: true,
       autoHover: true,
       controls: false,
-      touchEnabled: false
+      touchEnabled: true
     });
 
     $("#home-slider .product-description").dotdotdot({
       watch: true,
       height: 250
     });
-    
-  }
 
   // Make buttons from radio inoputs
   $( "#product-variants .variants-buttons" ).buttonset();
