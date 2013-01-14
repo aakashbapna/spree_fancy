@@ -1,0 +1,4 @@
+<!-- replace_contents '[data-hook="description"]' -->
+<%=
+	raw markdown product_description(@product) 
+%>

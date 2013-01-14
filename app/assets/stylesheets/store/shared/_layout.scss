@@ -118,14 +118,14 @@ header {
   }
   .product-image {
     a {
-      @include border-radius(165px);
+      //@include border-radius(165px);
       border-width: 2px;
       width: 160px;
       height: 160px;
     }
 
     img {
-      @include border-radius(45px);
+      //@include border-radius(45px);
       width: 160px;
       height: 160px;  
     }  
@@ -161,7 +161,7 @@ ul#products li {
       float: none;
 
       img {
-        @include border-radius(0);
+        //@include border-radius(0);
         width: 150px;
         height: 150px;
       }    

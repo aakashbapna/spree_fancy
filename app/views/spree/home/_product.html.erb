@@ -4,9 +4,9 @@
       <%= link_to product_image(product), product %>
     </div>
     <%= link_to truncate(product.name, :length => 50), product, :class => 'product-name', :title => product.name %>
-    <div class="product-sku">
+    <div class="product-sku hidden">
       <%= product.sku %>
     </div>
-    <span class="price selling hidden"><%= product.display_price %></span>
+    <span class="price selling"><%= product.display_price %></span>
   </li>
 <% end %>
