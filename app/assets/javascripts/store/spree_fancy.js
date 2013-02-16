@@ -32,7 +32,7 @@ $(function(){
       useCSS: true,
       slideWidth: 230,
       slideMargin: 10,
-      auto: true,
+      auto: false,
       autoHover: true,
       controls: false,
       touchEnabled: true

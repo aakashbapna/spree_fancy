@@ -14,9 +14,9 @@
             <div class="product-order-form">
               <%= form_for :order, :url => populate_orders_path do |f| %>
                 <% if product.on_sale? %>
-                  <span class="product-price">
+                  <div class="product-price">
                     <%= product.display_price %>
-                  </span>
+                  </div>
                   <%= number_field_tag (product.has_variants? ? :quantity : "variants[#{product.master.id}]"),
                     1, :class => 'title', :in => 1..product.on_hand, :min => 1 %>
                   <%= button_tag :id => 'add-to-cart-button', :type => :submit do %>
