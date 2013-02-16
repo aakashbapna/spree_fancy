@@ -47,7 +47,7 @@
         a {
           img {
             width: 100px;
-            height: 100px;
+            //height: 100px;
           } 
         } 
       } 
@@ -243,7 +243,7 @@
           img {
             //@include border-radius(80px);
             width: 240px;
-            height: 240px;
+            //height: 240px;
           } 
         } 
       }
@@ -366,7 +366,7 @@
 
       .product-image a, .product-image a img {
         width: 140px !important;
-        height: 140px !important;
+        //height: 140px !important;
       }
 
       .product-image a img {
@@ -397,7 +397,7 @@
           img {
             //@include border-radius(20px);
             width: 90px;
-            height: 90px;
+           // height: 90px;
           } 
         } 
       }

@@ -127,7 +127,7 @@ header {
     img {
       //@include border-radius(45px);
       width: 160px;
-      height: 160px;  
+      //height: 160px;  
     }  
   }
 }
@@ -163,7 +163,7 @@ ul#products li {
       img {
         //@include border-radius(0);
         width: 150px;
-        height: 150px;
+        //height: 150px;
       }    
     }
   }
