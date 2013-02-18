@@ -80,3 +80,9 @@ label.ui-button {
     }  
   }
 }
+
+.black-button {
+	background-color: $c_black !important;
+	border-color: lighten($c_black, 50) !important;
+	
+}
